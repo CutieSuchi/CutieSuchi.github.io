@@ -1,0 +1,81 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Pangolin" rel="stylesheet">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+    
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>Min titel</title>
+</head>
+  <!-- I body finns allt innehåll på hemsidan -->
+    <body>
+
+        <!-- I header finns allt som är sidans toppdel där rubrik och menu ofta finns -->
+        <header>
+            <!-- I nav finns alla länkar eller knappar för navigering, tex en menyrad -->
+            <nav class="nav navbar-inverse navbar-static-top">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">Om</a>
+                    <ul class="nav navbar-nav">
+                        <!-- Byt ut # i href mot filen som ska länkas till, tex djur.html -->
+                        <li><a href="menyval1.html">Mat</a></li>
+                        <li><a href="menyval2.html">Bur</a></li>
+                        <li><a href="menyval3.html">Hälsa</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <h1> BUREN = Home Sweet Home </h1>
+
+                 <p> Utan bur, vad är Marsvin? (Svar: Grannkattens lunch) </p>
+
+                 <p> Det är bara så det är. Marsvin brukar normalt sätt inte känna sig bekväma utanför deras burar. </p>
+
+                 <p> Visst, i ens famn känner dom sej väll rätt så bekväma... MEN DET ÄR ETT UNDANTAG, OK???
+                 Och dessutom måste man göra marsvinen tama innan de gillar att bli burna i famn så... glöm det.
+                 Iallafall, tillbaka till där vi var. </p>
+
+                 <p> Ahem... Har du NÅGONSIN sett ett marsvin vandrande på trottoaren? 
+                 Asså, så här ba', chillande och går på vägen och så?
+                 NEJ! EXAKT! Marsvin kan inte släppas fria ute i vilda världen! 
+                 Tillbaka till bur-snack nu. </p>
+
+                 <p> KUL FAKTA: I somliga länder STEKER MAN MARSVIN OCH ÄTER DE! </p>
+
+
+                 <p> När man köper en marsvinsbur är det viktigt att köpa en som är ganska rymlig, typ plats att ha ett litet hus och plats att springa. Marsvin är inte som hamstrar, de behöver inte en massa olika foder, eller klätterställningar, ruschkanor osv osv... </p>
+
+                 <p> Golvet i buren måste alltid vara täckt med sågspån och hö, and that's an order Mr.! </p>
+
+        </main>
+                 
+
+
+
+
+
+
+    </body>
+</html>

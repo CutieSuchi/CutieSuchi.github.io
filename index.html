@@ -1,0 +1,80 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Pangolin" rel="stylesheet">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>Min titel</title>
+</head>
+
+
+    <!-- I body finns allt innehåll på hemsidan -->
+    <body>
+
+        <!-- I header finns allt som är sidans toppdel där rubrik och menu ofta finns -->
+        <header>
+            <!-- I nav finns alla länkar eller knappar för navigering, tex en menyrad -->
+            <nav class="nav navbar-inverse navbar-static-top">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">Om</a>
+                    <ul class="nav navbar-nav">
+                        <!-- Byt ut # i href mot filen som ska länkas till, tex djur.html -->
+                        <li><a href="menyval1.html">Mat</a></li>
+                        <li><a href="menyval2.html">Bur</a></li>
+                        <li><a href="menyval3.html">Hälsa</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <div>
+            <div id="left">
+            <h1>Välkommen till Gnagaren!</h1>
+
+            <h2>Den ultimata webb-sidan för dig som älskar ditt marsvin (Precis som jag)</h2>
+
+            <p> Jag heter Moira och inte är jag någon expert på marsvin, men jag älskar de och känner deras känslor och vill gärna ge några tips på hur man tar hand om dem och så! (A.K.A det här kommer inte från någon länk)</p>
+
+            <p> Vill ni veta om mina marsvin? </p>
+
+            <p> Då så! </p>
+
+            <p> Mina marsvin gillade aldrig mig tills väldigt nyligen, när Snowy, det ena marsvinet hade dött. Ganska snart efter att Snowy hade dött köpte vi ett nytt marsvin, ett ganska litet, EXTREMT gulligt marsvin. Men Skipper, som hade blivit ensam kvar efter hennes syster hade gått bort, gillade inte det nya marsvinet. Det lustiga var att Skipper var dess mormor! Det stackars nya marsvinet blev mobbad av Skipper men till slut blev de vana vid varandra och nu sover de båda tillsammans varje dag. Faktum är att det var bara Skipper som blev ordentligt tam, Zoe är fortfarande blyg även nu. </p>
+
+            <p> Tips nummer ett: för att få riktigt tama marsvin får man aldrig LURA dem, eller behandla dem ILLA, och absolut inte TVINGA dem att göra något mot deras egen vilja. (Jag har stor efarenhet av att ha gjort det felet) </p>
+
+            <p> Tips nummer två: ha ALDRIG två marsvinshanar ihop i samma bur för att de tävlar om vem som har störst revir och biter och river varandra hela tiden. Själv vet jag inte hur det är att ha marsvinshanar men min kompis storasyster hade två stycken ihop och hon berättade hur det var för mig </p>
+
+            <p> Tips nummer tre: Om man vill få marsvinsungar så kan man ju sätta en hona och en hane tillsammans i samma bur ett tag men jag rekommenderar att köpa en unge från en djuraffär eller marsvinsuppfödare istället.</p>
+            </div>
+
+            <div id="right">
+            <img src="bilder/marsvin.jpg" id="marsvin">
+            </div>
+
+        </div>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,21 @@
+main {
+
+	font-family: "Pangolin";
+	font-size: 18pt;
+}
+
+#left {
+	float: left;
+	width: 45% ;
+	overflow: hidden;
+}
+
+#right {
+	overflow: hidden;
+	text-align: center;
+}
+
+#marsvin {
+	margin-top: 10%;
+}
+
